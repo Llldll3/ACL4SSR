@@ -1,0 +1,21 @@
+# TMDB DNS
+# Start
+99.84.206.34 api.themoviedb.org
+13.35.89.69 api.tmdb.org
+# End
+
+# Speedtest DNS
+# Start
+151.101.2.219 speedtest.net
+151.101.2.219 www.speedtest.net
+# End
+
+# Clash 网页控制器DNS
+# Start
+185.199.111.153 clash.razord.top
+# End
+
+# 群晖去升级检测
+# Start
+127.0.0.1 update.synology.com
+# End
