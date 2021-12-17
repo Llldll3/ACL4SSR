@@ -35,10 +35,18 @@ static=手动切换, server-tag-regex=.*
 [server_remote]
 
 [filter_remote]
-# blackmatrix7 去广告
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list, tag=🛑整合广告拦截, update-interval=86400, opt-parser=false, enabled=true
+# Advertising 广告
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list, tag=🛑轻量广告拦截, update-interval=86400, opt-parser=false, enabled=true
+# NobyDa去广告
+https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt, tag=🛑野比广告拦截, force-policy=reject, update-interval=86400, opt-parser=false, enabled=true
+# NobyDa去广告Plus
+https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block_Plus.txt, tag=🛑野比重度广告拦截, force-policy=reject, update-interval=86400, opt-parser=false, enabled=true
 # 毒奶去广告
 https://limbopro.com/Adblock4limbo.list, tag=🛑毒奶广告拦截, force-policy=reject, update-interval=86400, opt-parser=false, enabled=true
+# Privacy 隐私
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Privacy.list, tag=🛑隐私保护, update-interval=86400, opt-parser=false, enabled=true
+# Hijacking 运营商劫持或恶意网站
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Hijacking.list, tag=🛑运营商劫持, update-interval=86400, opt-parser=false, enabled=true
 # ChinaIP 中国直连
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list, tag=🎯中国IP-直连, update-interval=86400, opt-parser=false , enabled=true
 # China 国内网站
